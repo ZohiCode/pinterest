@@ -4,7 +4,7 @@ import 'endpoints.dart';
 
 class Api {
   static const String apiHost = "https://api.pexels.com/v1/";
-  static String apiKey = 'yV9zqxfcNamU8W3iMmcGfBYtWhLO9Mh32JL1ygrmwQIOP6kqWMRsyzW4';
+  static String apiKey = 'YOUR_API_KEY_HERE';
 
   static String getUrl(Map endpoint, List<dynamic> params) {
     String url = endpoint['url' ];
